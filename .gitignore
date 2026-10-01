@@ -216,3 +216,19 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# --- ESS battery project: data (large, never commit) ---
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+*.mat
+*.pkl
+
+# macOS
+.DS_Store
+
+# 제출용 PDF / 작업 메모는 저장소에 올리지 않음
+docs/*.pdf
+docs/STRUCTURE_DESIGN.md
+docs/DAY1_design.md
