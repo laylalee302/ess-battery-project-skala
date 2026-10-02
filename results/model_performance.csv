@@ -1,0 +1,7 @@
+﻿구분,MAPE (%),비고
+Train (Batch 1 CV),11.08,"ridge_quad(Set A), 프로토콜 단위 5-fold, 학습 36셀, fold 표준편차 3.05"
+Valid (Batch 1 Hold-out),7.23,프로토콜 5개 10셀 (Train 36셀로 학습한 모델)
+Test (Batch 2),25.18,Batch 2 유효 39셀 (Batch 1 46셀로 재학습한 최종 모델로 평가)
+Gap (Train-Valid),-3.86,(+) : 과적합 의심
+Gap (Valid-Test),17.95,(+) : 배치간 일반화 저하 의심
+Gap (Target-Test),16.08,Target : 원논문 9.1%

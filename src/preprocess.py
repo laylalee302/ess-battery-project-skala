@@ -27,7 +27,11 @@ def parse_policy(policy: str) -> dict:
 
 
 def exclusion_reason(cell: dict) -> str | None:
-    """제외 사유. 유효하면 None."""
+    """제외 사유. 유효하면 None.
+
+    주의(Batch 3): 2,000 사이클 이상 진행했지만 EOL 에 도달하지 못한 가장 오래 간 2셀(newstructure)은 cycle_life 가
+    비어 있어 제외된다. 그래서 Batch 3 의 수명 분포는 장수명 쪽이 실제보다 잘려 있다 (DAY 1 보고서 1-3).
+    """
     if np.isnan(cell["cycle_life"]):
         return "cycle_life 없음(NaN): 수명 종료 미도달 또는 특수 실험 셀"
     if cell["n_cycles"] < EARLY_CYCLES:

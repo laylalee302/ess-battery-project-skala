@@ -14,4 +14,5 @@ dependencies = [
     "mat73>=0.65",
     "h5py>=3.11",
     "jupyter>=1.1",
+    "pytest>=8.0",
 ]

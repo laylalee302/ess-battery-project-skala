@@ -1,0 +1,11 @@
+﻿cell_id,batch,policy,n_cycles,reason
+batch2_c022,batch2,VarCharge-2C-100cycles,920,cycle_life 없음(NaN): 수명 종료 미도달 또는 특수 실험 셀
+batch2_c023,batch2,VarCharge-4C-100cycles,1152,cycle_life 없음(NaN): 수명 종료 미도달 또는 특수 실험 셀
+batch2_c035,batch2,VarCharge-6C-100cycles,423,cycle_life 없음(NaN): 수명 종료 미도달 또는 특수 실험 셀
+batch2_c036,batch2,VarCharge-8C-100cycles,280,cycle_life 없음(NaN): 수명 종료 미도달 또는 특수 실험 셀
+batch2_c037,batch2,3.6C(80%)-3.6C(SLOWCYCLE,101,cycle_life 없음(NaN): 수명 종료 미도달 또는 특수 실험 셀
+batch2_c038,batch2,4.8C(80%)-4.8C(SLOWCYCLE,101,cycle_life 없음(NaN): 수명 종료 미도달 또는 특수 실험 셀
+batch2_c039,batch2,3.6C(9%)-5C(SLOWCYCLE,434,cycle_life 없음(NaN): 수명 종료 미도달 또는 특수 실험 셀
+batch2_c040,batch2,5.2C(58%)-4C(SLOWCYCLE,459,cycle_life 없음(NaN): 수명 종료 미도달 또는 특수 실험 셀
+batch3_c023,batch3,4.8C(80%)-4.8C-newstructure,2189,cycle_life 없음(NaN): 수명 종료 미도달 또는 특수 실험 셀
+batch3_c032,batch3,4.8C(80%)-4.8C-newstructure,2237,cycle_life 없음(NaN): 수명 종료 미도달 또는 특수 실험 셀

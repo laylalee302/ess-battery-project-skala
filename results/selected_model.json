@@ -1,0 +1,36 @@
+{
+  "model": "ridge_quad",
+  "feature_set": "A",
+  "features": [
+    "dq_log10_var",
+    "dq_kurtosis"
+  ],
+  "best_params": {
+    "model__alpha": 0.001
+  },
+  "heldout_mape": 10.223746076273017,
+  "heldout_se": 1.435958374528157,
+  "pre_eol_cells": [
+    "batch1_c000",
+    "batch1_c001",
+    "batch1_c002",
+    "batch1_c003",
+    "batch1_c004",
+    "batch1_c008",
+    "batch1_c010",
+    "batch1_c013",
+    "batch1_c022"
+  ],
+  "valid_cells": [
+    "batch1_c003",
+    "batch1_c004",
+    "batch1_c022",
+    "batch1_c023",
+    "batch1_c026",
+    "batch1_c027",
+    "batch1_c032",
+    "batch1_c033",
+    "batch1_c038",
+    "batch1_c039"
+  ]
+}

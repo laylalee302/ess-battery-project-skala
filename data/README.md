@@ -10,7 +10,7 @@
 |---|---|---|
 | `2017-05-12_batchdata_updated_struct_errorcorrect.mat` (2.8GB) | Batch 1 | 학습 |
 | `2018-02-20_batchdata_updated_struct_errorcorrect.mat` (1.9GB) | Batch 2 | 테스트 |
-| `2018-04-12_batchdata_updated_struct_errorcorrect.mat` (3.0GB) | Batch 3 | 모델링에는 미사용 (DAY1 EDA 비교용, 지침 확인 필요) |
+| `2018-04-12_batchdata_updated_struct_errorcorrect.mat` (3.0GB) | Batch 3 | EDA 비교용으로만 사용 (모델링과 평가에는 미사용) |
 | `2018-04-03_varcharge_batchdata_updated_struct_errorcorrect.mat` (0.1GB) | extra | 사용 안 함 |
 
 ## 캐시
